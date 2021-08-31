@@ -1,0 +1,33 @@
+#statCont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.statDiv {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    background-color: rgb(97, 97, 238);
+    justify-content: center;
+}
+
+.statTableDiv {
+    background-color: white;
+    margin: 15px auto;
+    width: 250px;
+    height: 230px;
+    padding: 10px;
+}
+
+h2 {
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.statTable {
+    width: 250px;
+    text-align: center;
+}
